@@ -1,8 +1,13 @@
+import { Header } from "./components/Header/Header"
 
 function App() {
 
   return (
-   <h1>Hello Word</h1>
+    <div>
+      <Header />
+      <h1>Hello Word</h1>
+    </div>
+  
   )
 }
 
