@@ -1,9 +1,11 @@
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 
+import styles from './App.module.css';
+
 import './global.css';
 
-import styles from './App.module.css'
+
 
 const posts = [
   {
@@ -45,7 +47,7 @@ export function App() {
     <div className={styles.wrapper}>
       <Sidebar />
       <main>
-        {posts.map(post => {
+        {/* {posts.map(post => {
           return (
             <Post
               key={post.id}
@@ -54,7 +56,7 @@ export function App() {
               publishedAt={post.publishedAt}
             />
           )
-        })}
+        })} */}
       </main>
     </div>
   </div>
